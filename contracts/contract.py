@@ -39,6 +39,7 @@ class Route:
 class OffcutRelay(gl.Contract):
  offers:TreeMap[str,Offer]
  routes:TreeMap[str,Route]
+ def __init__(self):pass
  def _offer(self,offer_id):
   k=ident(offer_id)
   if k not in self.offers:raise gl.vm.UserError('[EXPECTED] offer not found')

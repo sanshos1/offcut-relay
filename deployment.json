@@ -1,1 +1,9 @@
-{"network":"testnet-bradbury","status":"not-deployed"}
+{
+  "contract": "0x62321B4e17E716dE0B63B9FB7775bB2B6A308dd5",
+  "deployTx": "0x2406e651bfdf97db0203c45288cabfec70ab6cc9778dfdd35fba2bd49e2aa447",
+  "network": "StudioNet",
+  "deployer": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+  "status": "FINALIZED",
+  "consensus": "MAJORITY_AGREE",
+  "execution": "SUCCESS"
+}

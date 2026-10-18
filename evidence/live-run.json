@@ -1,0 +1,61 @@
+{
+  "offerId": "OFFCUT-1792344758",
+  "routeId": "ROUTE-1792344758",
+  "contractAddress": "0x62321B4e17E716dE0B63B9FB7775bB2B6A308dd5",
+  "transactions": {
+    "place": "0x1a7bea631006c43ca42bc7641782bc4b45b3796e9404b2aed4fc4eddc35e8c1c",
+    "screen": "0x9ff4bad621252283dd69de76e1d062d73e0e8b858aa343c962261901091fa709",
+    "reserve": "0x30492b39a5bc55e959a08879db1fa3d248706ea355723eb6a872240ec39ed714",
+    "handover": "0x53f5f9d4316e5386c1e2ba076ce3cf9eecb58f0fd189f90c2de2cc73a122cc4a"
+  },
+  "state": "HANDED_OVER",
+  "verdict": "CONDITIONAL",
+  "conditions": [
+    "CUT_TO_SIZE",
+    "EDGE_FINISH",
+    "SURFACE_PREP"
+  ],
+  "routeReadback": {
+    "conditions": [
+      "CUT_TO_SIZE",
+      "EDGE_FINISH",
+      "SURFACE_PREP"
+    ],
+    "digests": [
+      "d3d9e36ad5ddaa1778e3619ca7b10c38a4a331883305a5551b38c72be2447273",
+      "9316529ec71ee95e2b9c9fdda3c1c14c72011687c26225a6aa4b9f8cb9d70b4e",
+      "b29a14241e5001b1b20912fe0ea7d00a01de88f7acd389b1de2e9bf3117ed57b"
+    ],
+    "id": "ROUTE-1792344758",
+    "offer_id": "OFFCUT-1792344758",
+    "owner": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+    "project_need": "Two decorative wall shelves, each 760 by 180 by 18 millimetres, clear-oil finish and maximum load of 8 kilograms.",
+    "rationale": "The offcuts exceed the required dimensions for the shelves. The workshop has the necessary track saw for precision cutting and sanding equipment for finishing. The load requirement of 8kg is well within the capacity of 18mm birch plywood for decorative use, and the available quantity matches the project need.",
+    "requested_units": 2,
+    "sources": [
+      "https://raw.githubusercontent.com/sanshos1/offcut-relay/main/evidence/project-brief.txt",
+      "https://raw.githubusercontent.com/sanshos1/offcut-relay/main/evidence/workshop-record.txt"
+    ],
+    "state": "HANDED_OVER",
+    "steps": [
+      "Verify flat sheet dimensions exceed 760x180mm",
+      "Track saw cut sheets to 760x180mm using dust extraction",
+      "Sand sawn edges with edge block",
+      "Sanding surface to 180-grit with orbital sander",
+      "Apply clear oil finish"
+    ],
+    "verdict": "CONDITIONAL"
+  },
+  "offerReadback": {
+    "available_units": 2,
+    "deadline": 1792949560,
+    "id": "OFFCUT-1792344758",
+    "label": "Birch shelf pair",
+    "material": "Birch plywood, 820 by 460 by 18 millimetres, two dry sheets with two factory edges.",
+    "material_digest": "d3d9e36ad5ddaa1778e3619ca7b10c38a4a331883305a5551b38c72be2447273",
+    "material_sheet_url": "https://raw.githubusercontent.com/sanshos1/offcut-relay/main/evidence/material-sheet.txt",
+    "owner": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+    "reserved_route": "ROUTE-1792344758",
+    "state": "HANDED_OVER"
+  }
+}

@@ -24,4 +24,4 @@ python -m pytest -q
 node --check site/app.js
 ```
 
-The three text files in `evidence/` are operator-created fixtures. They demonstrate the lifecycle but are not independent authorities. Deployment and live lifecycle records are added only after final receipts and canonical readback.
+The three text files in `evidence/` are operator-created fixtures. They demonstrate the lifecycle but are not independent authorities. The reviewed contract is deployed on StudioNet at [`0x62321B4e17E716dE0B63B9FB7775bB2B6A308dd5`](https://explorer-studio.genlayer.com/address/0x62321B4e17E716dE0B63B9FB7775bB2B6A308dd5). The finalized deployment receipt is in `deployment.json`; the live route record is written only after canonical readback. The earlier `0xDFE7…001E` rehearsal deployment is retired and is not used by the interface.

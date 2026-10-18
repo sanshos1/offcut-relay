@@ -13,3 +13,4 @@ def test_authorization_and_permissionless_expiry():
  assert 'r.owner!=gl.message.sender_address' in S and 'o.owner!=gl.message.sender_address' in S
  body=re.search(r'def expire_offer\(.*?\n @gl.public.view',S,re.S).group(0)
  assert 'gl.message.sender_address' not in body
+def test_contract_initializes_public_surface():assert 'def __init__(self):pass' in S

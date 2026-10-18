@@ -5,5 +5,8 @@
   "deployer": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
   "status": "FINALIZED",
   "consensus": "MAJORITY_AGREE",
-  "execution": "SUCCESS"
+  "execution": "SUCCESS",
+  "sourceCommit": "12aa18754b0c8ef66673500f302ab77587ffb70c",
+  "publicSite": "https://offcut-relay.ranko5180.chatgpt.site",
+  "repository": "https://github.com/sanshos1/offcut-relay"
 }

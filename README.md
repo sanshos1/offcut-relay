@@ -1,5 +1,7 @@
 # OFFCUT RELAY / bench record 01
 
+**Live application:** https://offcut-relay.ranko5180.chatgpt.site
+
 The useful object is already on the bench. The uncertainty is whether it fits the next job.
 
 Offcut Relay lets a donor measure a reusable material remainder once, bind it to a public material sheet, and leave it open for multiple project routes. A recipient brings a project brief and a workshop capability record. GenLayer validators retrieve all three records, confirm that the donor's sheet has not changed, and settle `FIT`, `CONDITIONAL`, or `MISMATCH` with closed preparation conditions and a short handoff sequence.
